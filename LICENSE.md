@@ -1,3 +1,12 @@
+## License
+
+### Image Files in "examples" Directory
+- `fiveyears.jpg` : Gopher image by [Renee French][https://reneefrench.blogspot.com/], licensed under [Creative Commons 3.0 Attributions license][https://creativecommons.org/licenses/by/3.0/]. At the time of writing, this image is also used in the [go repository](https://github.com/golang/go).
+- `fiveyears.png` : PNG version of `fiveyears.jpg`, and resized from 1262x733 into 505x293
+- `fiveyears-*.png` : images splitted from `fiveyears.png` by this program
+
+### Other Files
+```
 MIT License
 
 Copyright (c) 2021 Tadahisa MOTO-OKA
@@ -19,3 +28,4 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+```
