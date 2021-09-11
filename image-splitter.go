@@ -7,6 +7,7 @@ import (
 	"image/png"
 	"os"
 	"path/filepath"
+	"strings"
 )
 
 func main() {
@@ -68,8 +69,8 @@ func split(source string) error {
 func outputPath(source string, version string) string {
 	// e.g. "~/hoge/test.png" => "~/hoge/test-red.png"
 	dir := filepath.Dir(source)
-	base := filepath.Base(source)
 	ext := filepath.Ext(source)
+	base := strings.TrimSuffix(filepath.Base(source), ext)
 	outputFile := base + "-" + version + ext
 	outputPath := filepath.Join(dir, outputFile)
 	return outputPath
